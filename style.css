@@ -116,3 +116,40 @@ footer {
 .btn:hover {
   background-color: #45a049; /* اللون عند المرور بالماوس */
 }
+/* Projects Section */
+#projects {
+  padding: 50px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Project Card */
+.project {
+  background: #fff;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.project h3 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.project p {
+  color: #555;
+  margin-bottom: 15px;
+}
